@@ -6,5 +6,38 @@
     <title>ОЙ.. УПС..</title>
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="icon" href="images/logo-img.png" rel="icon">
+    <script src="javascripts/javascripts.js" charset="utf-8"></script>
 </head>
-<script src="javascripts/javascripts.js" charset="utf-8"></script>
+
+<body>
+    <section class="page-404">
+        <img src="./images/logo-img.png" class="logo-404" alt="логотип">
+        <h1 class="title-404">ой.. страничка потерялась</h1>
+        <h2 class="title-404-2">ошибка <span>404</span>. страница не найдена</h2>
+        <p class="text-404">странное дело! мы пока займемся починкой, <br> а вы можете вернуться на главную!</p>
+        <a href="index.html">
+            <button class="back-404">вернуться на главную</button>
+        </a>
+        <button class="complain-btn">сообщить о проблеме</button>
+        <div class="img-404"></div>
+    </section>
+
+    <section class="sectionnone form-404">
+        <h1 class="complaint-title">
+            извините! мы исправимся!
+        </h1>
+            <form>
+                <label class="label1" for="name">как к вам обращаться?</label>
+                <input class="complaint-name" type="name" placeholder="иван"></input>
+                
+                <label class="label2" for="email">укажите электронную почту для обратной связи</label>
+                <input class="complaint-mail" type="email" placeholder="example@gmail.com"></input>
+
+                <label class="label3" for="problem">опишите вашу проблему</label>
+                <textarea id="problem" rows="5" placeholder=""></textarea>
+            </form>
+        <button class="submit-form" type="button">отправить</button>
+        <button class="close-form" type="button"></button>
+    </section>
+</body>
+</html>
