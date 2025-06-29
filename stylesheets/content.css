@@ -32,8 +32,30 @@
     }
   
     p {
+        font-family: 'Montreal';
         color: rgb(0, 0, 0);
     }
+
+    h1 {
+        font-family: 'JRK';
+        color: black;
+    }
+
+    button {
+        width: 15.625vw;
+        height: 4.1667vw;
+        font-family: 'JRK';
+        font-size: 3.3333vw;
+        color: white;
+        background: #000;
+    }
+
+    button:hover {
+        color: #ffffff;;
+        background: #1A841A;;
+    }
+
+    /* header */
 
     nav{
         width: 85vw;
@@ -90,6 +112,8 @@
         color: #ffffff !important; 
     }
 
+    /* main, banner */
+
     .banner{
         width: 100vw;
         height: 56.25vw;
@@ -107,7 +131,7 @@
         height: 56.25vw;
         z-index: 2;
         background-color: #EEEEEE;
-        opacity: 0.85;
+        opacity: 0.75;
         position: absolute;
         top: 0;
     }
@@ -197,3 +221,1172 @@
         animation-iteration-count: infinite;
         animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
     }
+
+    /* about-annotation */
+
+    .about-annotation{
+        width: 100vw;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .slots-banner {
+        width: 103.54vw;
+        height: 46.56vw;
+        margin: auto;
+        margin-top: -5vw;
+        opacity: 1;
+        transition: opacity 0.1s linear;
+        z-index: -1;
+    }
+
+    .about-annotation-header {
+        font-size: 5vw;
+        position: absolute;
+        top: 29vw;
+        left: 47vw;
+    }
+
+    .about-annotation-txt {
+        font-size: 2.5vw;
+        position: absolute; 
+    }
+
+    .txt1 {
+        top: 45.31vw;
+        left: 8.44vw;
+    }
+   
+    .txt2 {
+        top: 50.94vw;
+        left: 16.88vw;        
+    }
+
+    .txt3 {
+        top: 45.31vw;
+        right: 16.82vw;              
+    }
+
+    .txt4 {
+        top: 57.40vw;
+        right: 8.70vw;              
+    }
+
+    .txt5 {
+        top: 63.65vw;
+        left: 8.44vw;            
+    }
+
+    .txt6 {
+        top: 66.67vw;
+        left: 16.88vw;             
+    }
+   
+    .txt7 {
+        top: 73.71vw;
+        right: 8.44vw;    
+    }
+
+    .face-main {
+        width: 24.60vw;
+        height: 32.14vw;
+        position: absolute;
+        top: 44vw;
+        left: 37.66vw;
+        animation: face 3s infinite;
+        filter: contrast(1.1) brightness(1.1);
+    }
+
+    .posters-carousel {
+        width: 100%;
+        height: 26.56248vw;
+        position: relative;
+        margin-top: 40vw;
+    }
+
+    .carousel {
+        display: flex;
+        width: fit-content;
+        animation: carousel 7s linear infinite;
+        animation-play-state: running;
+    }
+
+    .carousel.paused {
+        animation-play-state: paused;
+    }
+
+    .post {
+        width: 15.625vw;
+        height: 22.1354vw;
+        margin-right: 3.1771vw;
+        filter: grayscale(100%);
+        transition: filter 0.3s ease, transform 0.3s ease;
+    }
+
+    .post:hover {
+        filter: none;
+        transform: scale(1.2);
+        z-index: 2;
+    }
+
+    /* футер */
+
+    .footer {
+        height: 5.42vw;
+        width: 100vw;
+        opacity: 0.9;
+        background: #DADADA;
+        z-index: 10;
+    }
+    
+    .footer-container {
+        display: flex;
+        height: 100%;
+    }
+    
+    .footer-logo {
+        width: 6.22vw;
+        height: 3.18vw;        
+        position: absolute;
+        bottom: 1.15vw;
+        left: 8.44vw;
+    }
+    
+    .footer-txt {
+        position: absolute;
+        bottom: 0.73vw;
+        left: 17vw;
+        font-size: 3.33vw;
+        font-family: 'JRK';
+        color: #000000;
+    }
+
+    .footer-txt:hover {
+        color: #1A841A;
+        cursor: pointer;
+    }
+
+    .footer-link {
+        position: absolute;
+        bottom: 0.73vw;
+        right: 8.44vw;
+        font-family: 'JRK';
+        font-size: 3.33vw;
+        color: #000000;
+
+    }
+
+    .footer-link:hover {
+        color: #1A841A;
+        cursor: pointer;
+    }
+   
+    /* 404 страничка */
+
+    .page404 {
+        width: 100vw;
+        height: 56.25vw;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .logo-404 {
+        width: 6.22vw;
+        height: 3.18vw;
+        position: absolute;
+        top: 12.86vw;
+        left: 25.26vw;  
+    }
+
+    .title-404 {
+        position: absolute;
+        top: 17.86vw;
+        left: 25.26vw;  
+        font-family: 'JRK';
+        font-size: 5vw;
+    }
+
+    .title-404-2 {
+        position: absolute;
+        top: 25.68vw;
+        left: 25.26vw;  
+        font-family: 'Montreal';
+        font-size: 3.33vw;
+        color: #000;
+    }
+
+    .title-404-2 span {
+        color: #1A841A;
+    }
+
+    .text-404 {
+        position: absolute;
+        top: 31.51vw;
+        left: 25.26vw; 
+        font-family: 'Montreal';
+        font-size: 2.5vw;
+    }
+
+    .back-404 {
+        width: 15.63vw;
+        height: 4.17vw;
+        position: absolute;
+        top: 39.22vw;
+        left: 25.26vw;
+        font-family: 'JRK';
+        font-size: 3.33vw;
+        color: #ffffff;
+        background: #000;
+        border-radius: 0%;
+        border: none;
+        cursor: pointer;
+    }
+
+    .complain-btn {
+        width: 15.63vw;
+        height: 4.17vw;
+        position: absolute;
+        top: 39.22vw;
+        left: 42.29vw;
+        font-family: 'JRK';
+        font-size: 3.33vw;
+        color: #000000;
+        background: #DADADA;
+        border-radius: 0%;
+        border: none;
+        cursor: pointer;
+    }
+
+    .img-404 {
+        width: 31.77vw;
+        height: 26.04vw;
+        position: absolute;
+        top: 17.34vw;
+        right: 14.17vw;
+        animation: glitch 2s infinite;
+        background-image: url(../images/404-img.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .img-404::before,
+    .img-404::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/404-img.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.6;
+        mix-blend-mode: lighten;
+        pointer-events: none;
+    }
+    
+    .img-404::before {
+        animation: glitch-top 2s infinite;
+        clip-path: inset(0 0 60% 0);
+    }
+    
+    .img-404::after {
+        animation: glitch-bottom 2s infinite;
+        clip-path: inset(40% 0 0 0);
+    }
+
+    /* форма жалуемся */
+
+    .sectionnone {
+        display: none;
+      }
+      
+      .sectionblock {
+        display: block;
+      }
+    
+    .form-404 {
+        width: 51.04vw;
+        height: 51.56vw;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(102, 102, 102, 0.8);
+        backdrop-filter: blur(4px);
+        z-index: 999;
+    }
+
+    .complaint-title {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 5vw;
+        font-family: 'JRK';
+        color: #000000;
+        margin-bottom: 0.1vw;
+        white-space: nowrap;
+      }
+      
+    form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .form-404 label {
+        position: absolute;
+        font-size: 2.5vw;
+        color: #fff;
+        left: 5vw;
+      }
+      
+      .complaint-name,
+      .complaint-mail,
+      .form-404 textarea {
+        width: 41.04vw;
+        height: 3.7vw;
+        padding: 1vw;
+        font-size: 2.5vw;
+        border: none;
+        outline: none;
+        background-color: #DADADA;
+        color: #000;
+        font-family: 'Montreal';
+        position: absolute;
+        left: 5vw;
+      }
+    
+      .label1 {
+        top: 6.64vw;
+      }
+
+      .label2 {
+        top: 16.64vw;
+      }
+
+      .label3 {
+        top: 26.64vw;
+      }
+
+      .complaint-name {
+        top: 10vw;
+      }
+
+      .complaint-mail {
+        top: 20vw;
+      }
+
+      textarea {
+        top: 30vw;
+      }
+      
+      .complaint-name::placeholder,
+      .complaint-mail::placeholder {
+        color: #666;
+      }
+      
+      .submit-form {
+        width: 15.63vw;
+        height: 4.17vw;
+        position: absolute;
+        top: 40vw;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 3.33vw;
+        border: none;
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+        font-family: 'JRK';
+        transition: all 0.3s ease;
+        
+      }
+      
+      .submit-form:hover {
+        background-color: #1A841A;
+      }
+
+      .close-form {
+        width: 1.88vw;
+        height: 1.88vw;
+        position: absolute;
+        top: 1.51vw;
+        right: 3.13vw;
+        background-image: url(../images/Х.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border: none;
+        z-index: 100;
+      }
+
+      .close-form:hover {
+        background-image: url(../images/Х2.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-color: transparent;
+      }
+
+      /* о нас */
+
+      .who-we-are {
+        width: 100vw;
+        height: 55.78vw;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .who-title {
+        font-size: 5vw;
+        position: absolute;
+        top: 11.20vw;
+        left: 9.01vw;        
+      }
+
+      .who-txt {
+        width: 34vw;
+        position: absolute; 
+        top: 21.61vw;
+        left: 9.01vw;  
+        font-size: 2.5vw;
+      }
+
+      .who-button {
+        position: absolute;
+        top: 44.63vw;
+        left: 9.01vw;  
+      }
+
+      .who-img-1 {
+        width: 44.94vw;
+        height: 41.82vw;
+        position: absolute;
+        top: 6.82vw;
+        right: 6.09vw; 
+        z-index: 2;
+        animation: float 5s ease-in-out infinite;
+      }
+
+      .who-img-2 {
+        width: 44.94vw;
+        height: 41.82vw;
+        position: absolute;
+        top: 4.79vw;
+        right: 9.95vw;
+        opacity: 0.8;      
+      }
+
+      .vacancy {
+        width: 100vw;
+        height: 75vw;
+        position: relative;
+        overflow: hidden;
+        margin-top: -5vw;
+      }
+
+      .vacancy-title {
+        font-size: 5vw;
+        position: absolute;
+        top: 5.8vw;
+        left: 53.70vw;      
+      }
+
+      .vacancy-txt {
+        width: 34vw;
+        position: absolute; 
+        top: 16.61vw;
+        left: 53.70vw;
+        font-size: 2.5vw;
+      }
+
+      .vacancy-button {
+        position: absolute;
+        top: 30.63vw;
+        left: 53.6vw;
+    }
+
+      .vacancy-img {
+        width: 37.36vw;
+        height: 28.02vw;        
+        position: absolute;
+        top: 6.82vw;
+        left: 6.09vw; 
+      }
+
+      .team-title {
+        font-size: 5vw;
+        position: absolute;
+        top: 42vw;
+        left: 50%;  
+        transform: translateX(-50%);    
+      }
+
+      .our-team {
+        width: 100vw;
+        height: 43.28vw;
+        position: absolute;
+        bottom: -3vw;
+        opacity: 0.7;
+        animation: team 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+      }
+
+      /* мага */
+
+      .shop-section {
+        width: 100vw;
+        height: 110vw;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .shop-title {
+        position: absolute;
+        top: 12.08vw;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 6.67vw;
+      }
+
+      .shop-1 {
+        width: 32.55vw;
+        height: 37.97vw;
+        position: absolute;
+        top: 23.13vw;
+        left: 12.14vw;        
+      }
+
+      .shop-img {
+        width: 32.55vw;
+        height: 24.95vw;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .shop-img-1 {
+        background-image: url(../images/shop1.png);
+      }
+
+      .info {
+        width: 32.55vw;
+        height: 13.02vw;
+        z-index: 1;
+        position: absolute;
+        bottom: 0;
+        background: #666;
+      }
+
+      .shop-button {
+        width: 15.625vw;
+        height: 4.1667vw;
+        font-family: 'JRK';
+        font-size: 3.3333vw;
+        color: white;
+        background: #000;
+        position: absolute;
+        bottom: 1.30vw;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .shop-button-green {
+        background: #1A841A;
+        color: #FFF;
+      }
+
+      .counter span {
+        margin: 0 0.3vw;
+        cursor: pointer;
+      }
+
+      .infotxt {
+        position: absolute;
+        font-family: 'Montreal';
+        font-size: 2.5vw;
+        color: #FFF;
+      }
+
+      .info-txt-1 {
+        top: 0.52vw;
+        left: 2.66vw;
+      }
+
+      .info-txt-2 {
+        top: 2.92vw;
+        left: 10.57vw;        
+      }
+
+      .info-txt-3 {
+        top: 0.52vw;
+        left: 16.77vw;
+      }
+
+      .info-txt-4 {
+        top: 4.17vw;
+        right: 2.60vw;        
+      }
+
+      .shop-2 {
+        width: 32.55vw;
+        height: 37.97vw;
+        position: absolute;
+        top: 23.13vw;
+        right: 12.14vw;        
+      }
+
+      .shop-img-2 {
+        background-image: url(../images/shop2.png);
+      }
+
+      .shop-3 {
+        width: 32.55vw;
+        height: 37.97vw;
+        position: absolute;
+        top: 68.70vw;
+        left: 12.14vw;        
+      }
+
+      .shop-img-3 {
+        background-image: url(../images/shop3.png);
+      }
+
+      .shop-4 {
+        width: 32.55vw;
+        height: 37.97vw;
+        position: absolute;
+        top: 68.70vw;
+        right: 12.14vw;        
+      }
+
+      .shop-img-4 {
+        background-image: url(../images/shop4.png);
+      }
+
+      /* корзинка */
+
+        .basket-section {
+            width: 100vw;
+            height: 60vw;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .product {
+            width: 84.17vw;
+            height: 7.86vw;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #666;
+        }
+
+        .pr1 {
+            top: 10.73vw;
+        }
+
+        .pr2 {
+            top: 20.99vw;
+        }
+
+        .pr-cover {
+            width: 7.34vw;
+            height: 5.63vw;
+            position: absolute;
+            top: 1.04vw;
+            left: 1.04vw;
+        }
+
+        .name {
+            position: absolute;
+            top: 2.14vw;
+            left: 9.43vw;
+            font-family: 'Montreal';
+            font-size: 2.5vw;
+            color: #FFF;
+        }
+
+        .article {
+            position: absolute;
+            top: 2.14vw;
+            left: 20.89vw;
+            font-family: 'Montreal';
+            font-size: 2.5vw;
+            color: #FFF;
+        }
+
+        .minus {
+            position: absolute;
+            top: 2.14vw;
+            right: 22.81vw;
+            font-family: 'Montreal';
+            font-size: 2.5vw;
+            color: #FFF;
+            cursor: not-allowed;
+        }
+
+        .quantity {
+            position: absolute;
+            top: 2.14vw;
+            right: 18.75vw;
+            font-family: 'Montreal';
+            font-size: 2.5vw;
+            color: #FFF;
+        }
+
+        .plus {
+            position: absolute;
+            top: 2.14vw;
+            right: 15.63vw;
+            font-family: 'Montreal';
+            font-size: 2.5vw;
+            color: #FFF;
+            cursor: not-allowed;
+        }
+
+        .price {
+            position: absolute;
+            top: 2.14vw;
+            right:  1.04vw;
+            font-family: 'Montreal';
+            font-size: 2.5vw;
+            color: #FFF;
+        }
+
+        .total-price {
+            position: absolute;
+            top: 31.25vw;
+            right: 7.7vw;
+            font-family: 'Montreal';
+            font-size: 3.33vw;
+            color: #000;
+        }
+
+        .shop-machine {
+            width: 14.32vw;
+            height: 27.66vw;
+            position: absolute;
+            bottom: 1.95vw;
+            left: 7.92vw;
+            z-index: 2;
+        }
+
+        .shop-lever {
+            width: 7.93vw;
+            transform: rotate(30.602deg);           
+            position: absolute;
+            bottom: 18.87vw;
+            left: 15.97vw;   
+            animation-name: lever;
+            animation-duration: 2.5s; 
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);   
+        }
+
+        .check {
+            color: #000000;
+            font-size: 2.5vw;
+            position: absolute;
+        }
+
+        .check1 {
+            bottom: 19.90vw;
+            right: 7.7vw;
+        }
+
+        .check2 {
+            bottom: 14.48vw;
+            right: 7.7vw;
+        }
+
+        .square {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border: 0.26vw solid #1A841A;
+            width: 2.5vw;
+            height: 2.5vw;
+            position: absolute;
+            cursor: pointer;
+        }
+
+        .square:checked {
+            background: #1A841A; 
+        }
+
+        .square1 {
+            left: 30.94vw;
+            bottom: 19.90vw;
+        }
+
+        .square2 {
+            left: 30.94vw;
+            bottom: 14.48vw;
+        }
+
+        .buy-btn {
+            position: absolute;
+            bottom: 6vw;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* блог статьи */
+
+        .blog-section {
+            width: 100vw;
+            height: 111.20vw;
+            position: relative;
+            overflow: hidden;    
+        }
+
+        .blog-title-1 {
+            position: absolute;
+            top: 11.20vw;
+            left: 9.01vw;
+            font-family: 'Jrk';
+            font-size: 5vw;
+        }
+
+        .blog-description-1 {
+            width: 35.31vw;
+            position: absolute;
+            top: 11.20vw;
+            right: 7.40vw;
+            font-family: 'Montreal';
+            font-size: 2.5vw;
+        }
+
+        .blog-wrapper-1 {
+            width: 29.53vw;
+            height: 30.52vw;
+            position: absolute;
+            top: 25.05vw;
+            left: 9.01vw;
+        }
+
+        .blog-cover {
+            width: 100%;
+        }
+
+        .blog-info {
+            width: 100%;
+            height: 7.45vw;
+            background: #666;
+            margin-top: -1vw;
+            position: relative;
+        }
+
+        .blog-txt {
+            position: absolute;
+            font-size: 2.5vw;
+            font-family: 'Montreal';
+            color: #ffffff;
+        }
+
+        .txt1-0 {
+            top: 1.25vw;
+            left: 2.81vw;
+        }
+      
+        .txt1-1 {
+            top: 2.40vw;
+            left: 9.64vw;            
+        }
+
+        .txt1-2 {
+            top: 0vw;
+            left: 19.11vw;                    
+        }
+
+        .txt1-3 {
+            top: 4.43vw;
+            left: 3.13vw;                     
+        }
+
+        .txt1-4 {
+            bottom: 0.89vw;
+            right: 1.77vw;                     
+        }
+
+        .blog-button {
+            width: 100%;
+        }
+      
+        .blog-wrapper-2 {
+            width: 18.91vw;
+            height: 30.52vw;
+            position: absolute;
+            top: 25.05vw;
+            left: 42.08vw;
+        }
+
+        .txt2-0 {
+            top: 0.21vw;
+            left: 0.89vw;            
+        }
+      
+        .txt2-1 {
+            top: 2.03vw;
+            left: 4.32vw;                     
+        }
+
+        .txt2-2 {
+            top: 0vw;
+            right: 2.71vw;                             
+        }
+
+        .txt2-3 {
+            top: 4.43vw;
+            left: 2.03vw;                             
+        }
+
+        .txt2-4 {
+            top: 2.92vw;
+            right: 1.67vw;                             
+        }
+
+        .blog-wrapper-3 {
+            width: 51.98vw;
+            height: 19.95vw;
+            position: absolute;
+            top: 59.01vw;
+            left: 9.01vw;
+        }
+
+        .txt3-0 {
+            top: 1.46vw;
+            left: 1.15vw;                     
+        }
+      
+        .txt3-1 {
+            top: 0.83vw;
+            left: 20.42vw;                              
+        }
+
+        .txt3-2 {
+            top: 2.97vw;
+            left: 27.97vw;                                        
+        }
+
+        .txt3-3 {
+            top: 0vw;
+            right: 7.14vw;                                     
+        }
+
+        .txt3-4 {
+            bottom: 0vw;
+            left: 9.95vw;                                       
+        }
+
+        .txt3-5 {
+            bottom: 0.10vw;
+            right: 4.64vw;                                    
+        }
+
+        .blog-wrapper-4 {
+            width: 28.07vw;
+            height: 56.91vw;            
+            position: absolute;
+            top: 25.05vw;
+            right: 7.40vw;            
+        }
+
+        .txt4-0 {
+            top: 1.25vw;
+            left: 2.81vw;                                
+        }
+      
+        .txt4-1 {
+            top: -0.26vw;
+            left: 7.66vw;                                               
+        }
+
+        .txt4-2 {
+            top: 2.14vw;
+            left: 14.11vw;                                                  
+        }
+
+        .txt4-3 {
+            top: 0.63vw;
+            right: 2.03vw;                                          
+        }
+
+        .txt4-4 {
+            top: 4.43vw;
+            left: 3.13vw;                                                         
+        }
+
+        .txt4-5 {
+            bottom: -0.10vw;
+            right: 4.58vw;                                             
+        }
+
+        .pages-list {
+            position: absolute;
+            bottom: 21.72vw;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 5vw;
+            letter-spacing: 0.4vw;
+        }
+
+        .arrow {
+            position: absolute;
+            width: 2vw;
+            height: 2vw;
+            background: black;
+            cursor: pointer;
+            bottom: 23.49vw;
+            transition: all 0.3s ease;
+          }
+          
+          .arrow.left {
+            left: 37.97vw;
+          }
+
+          .arrow.right {
+            right: 37.97vw;
+          }
+          
+          .arrow::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: scale(0) translate(-50%, -50%);
+            width: 0;
+            height: 0;
+            border-style: solid;
+            transition: transform 0.4s ease;
+          }
+          
+          .arrow.left::after {
+            border-width: 1vw 1.8vw 1vw 0;
+            border-color: transparent black transparent transparent;
+          }
+          
+          .arrow.right::after {
+            border-width: 1vw 0 1vw 1.8vw;
+            border-color: transparent transparent transparent black;
+          }
+          
+          .arrow:hover {
+            background: transparent;
+          }
+          
+          .arrow:hover::after {
+            transform: scale(1) translate(-50%, -50%);
+          }
+
+          .blog-title-2 {
+            position: absolute;
+            bottom: 11.20vw;
+            left: 9.01vw;
+            font-family: 'Jrk';
+            font-size: 5vw;
+        }
+
+        .blog-description-2 {
+            width: 22.66vw;
+            position: absolute;
+            bottom: 11.20vw;
+            left: 41.88vw;
+            font-family: 'Montreal';
+            font-size: 2.5vw;
+        }
+        
+        .blog-send {
+            position: absolute;
+            bottom: 11.20vw;
+            right: 7.40vw;    
+        }
+
+        /* путеводитель */
+
+        .book {
+            width: 100vw;
+            height: 122.08vw;
+            position: relative;
+            overflow: hidden;  
+        }
+
+        .book-title {
+            position: absolute;
+            font-size: 5vw;
+            top: 11.20vw;
+            left: 8.44vw;
+        }
+
+        .book-txt {
+            width: 24.22vw;
+            font-size: 2.5vw;
+            position: absolute;
+            top: 21.61vw;
+            left: 8.44vw;
+        }
+
+        .book-img-1 {
+            width: 60.47vw;
+            height: 42.66vw;
+            position: absolute;
+            top: 5.73vw;
+            right: 0vw;
+        }
+
+        .book-img-2 {
+            width: 59.48vw;
+            height: 56.46vw;
+            position: absolute;
+            top: 42.76vw;
+            left: 0vw;             
+        }
+
+        .book-img-3 {
+            width: 16.04vw;
+            height: 22.24vw;
+            position: absolute;
+            bottom: 45.42vw;
+            right: 24.48vw;
+        }
+
+        .book-img-4 {
+            width: 40.65vw;
+            height: 22.86vw;
+            position: absolute;
+            bottom: 0;
+            left: 8.44vw;
+        }
+
+        .book-img-5 {
+            width: 31.31vw;
+            height: 27.86vw;            
+            position: absolute;
+            bottom: 0;
+            right: 8.44vw;
+        }
+
+        .book-gif {
+            width: 16.04vw;
+            height: 22.24vw;
+            position: absolute;
+            bottom: 45.42vw;
+            right: 8.44vw;
+        }
+
+        .book-button {
+            width: 32.08vw;
+            height: 4.17vw;
+            position: absolute;
+            bottom: 40.16vw;
+            right: 8.44vw;            
+        }
+      
