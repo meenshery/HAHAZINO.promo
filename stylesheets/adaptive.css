@@ -1,0 +1,48 @@
+/* 1680 - 404*/
+@media screen and (max-width: 1680px) {
+    .logo-404 {
+        top: 8.86vw;
+    }
+    .title-404 {
+        top: 13.86vw;
+    }
+    .title-404-2 {
+        top: 21.68vw;
+    }
+    .text-404 {
+        top: 27.51vw;
+    }
+    .back-404 {
+        top: 35.22vw;
+    }
+    .complain-btn {
+        top: 35.22vw;
+    }
+    .img-404 {
+        top: 13.34vw;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    .logo-404 {
+        top: 12.86vw;
+    }
+    .title-404 {
+        top: 17.86vw;
+    }
+    .title-404-2 {
+        top: 25.68vw;
+    }
+    .text-404 {
+        top: 31.51vw;
+    }
+    .back-404 {
+        top: 39.22vw;
+    }
+    .complain-btn {
+        top: 39.22vw;
+    }
+    .img-404 {
+        top: 17.34vw;
+    }
+}
